@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 260 210" width="260" height="210" x="0px" y="0px">
+              
+              <!-- ITEM 0 -->
+<g>
+    <defs>
+        
+        <clipPath id="clip-path-id-viewbox-item-0">
+            <rect x="0.0" y="0.0" width="800.0" height="801.0"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-270.0 -295.0) rotate(0.0 400.0 400.5) scale(1.0 1.0)">
+      <g clip-path="url(#clip-path-id-viewbox-item-0)" transform="translate(-0.0 -0.0)">
+      
+<circle style="fill:#ccf6da;" cx="400" cy="400.725" r="400"/>
+
+      </g>
+    </g>
+</g>
+
+<!-- ITEM 1 -->
+<g>
+    <defs>
+        
+        <clipPath id="clip-path-id-viewbox-item-1">
+            <rect x="0.0" y="0.0" width="800.0" height="757.0"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-32.0 -20.0) rotate(0.0 90.5 86.0) scale(0.22625 0.22721268163804492)">
+      <g clip-path="url(#clip-path-id-viewbox-item-1)" transform="translate(-0.0 -0.0)">
+      
+<path style="fill:#2ffeab;" d="M232.387,746.424c-236.8-39.247-300.317-304.475-152.62-466.09  C214.312,133.145,146.722,24.101,364.98,2.929C630.76-22.869,774.978,124.362,797.423,341.857  C831.07,667.632,529.395,795.685,232.387,746.424z M296.797,154.547c29.374,5.719,57.822-13.458,63.54-42.831  c5.719-29.374-13.458-57.822-42.831-63.54s-57.822,13.458-63.54,42.831C248.247,120.381,267.423,148.828,296.797,154.547z   M206.081,215.044c15.112,2.942,29.748-6.924,32.691-22.036s-6.924-29.748-22.036-32.691s-29.748,6.924-32.691,22.036  S190.969,212.102,206.081,215.044z"/>
+
+      </g>
+    </g>
+</g>
+
+              </svg>
