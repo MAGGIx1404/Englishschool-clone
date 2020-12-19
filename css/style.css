@@ -305,3 +305,88 @@ main .card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover{
     width: 100%;
     height: auto;
 }
+
+.child{
+    margin-top: 2rem;
+}
+.child .child-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.child .child-info .left-child{
+    width: 50%;
+    height: auto;
+}
+.child .child-info .left-child img{
+    height: auto;
+    width: 100%;
+}
+.child .child-info .child-right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.child .child-info .child-right h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.child .child-info .child-right p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.child .child-info .child-right h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.child .child-info .child-right h4 i{
+    color: #01d295;
+}
+.baby{
+    margin-top: 2rem;
+}
+.baby .baby-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.baby .baby-info .left-baby{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.baby .baby-info .left-baby h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.baby .baby-info .left-baby p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.baby .baby-info .left-baby h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.baby .baby-info .left-baby h4 i{
+    color: #01d295;
+}
+.baby .baby-info .right-baby{
+    width: 50%;
+    height: auto;
+}
+.baby .baby-info .right-baby img{
+    width: 100%;
+    height: auto;
+}
