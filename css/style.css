@@ -611,3 +611,177 @@ main .card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover{
 .blog .blog-info .blog-card h4:hover{
     color: #f77757;
 }
+
+.issues{
+    height: 100vh;
+    margin-top: 5rem;
+    position: relative;
+    background-image: url(../images/back.png);
+    background-size: cover 100% 100%;
+    border-bottom: #888888 solid;
+}
+.issues .issues-heading{
+    width: 80%;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: start;
+}
+.issues .issues-1{
+    margin-top: 1rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccf6da;
+    padding: 1rem;
+    cursor: pointer;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.issues .drop{
+    width: 80%;
+    background-color: #ccf6da;
+    text-align: start;
+    height: 0;
+    opacity: 0;
+    transition: all .8s ease;
+    padding: 1rem;
+}
+.issues .drop p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.issues #toggle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+.issues #toggle:checked ~ .drop{
+    width: 80%;
+    height: 7rem;
+    opacity: 1;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.issues .issues-3{        
+    margin-top: 1rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccf6da;
+    padding: 1rem;
+    cursor: pointer;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.issues .issues-2{    
+    margin-top: 2.5rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccf6da;
+    padding: 1rem;
+    cursor: pointer;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+footer{
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+footer .first-col{
+    width: 20%;
+    text-align: center;
+}
+footer .first-col h4{
+    color: #888888;
+    font-size: 1rem;
+    font-weight: bold;
+}
+footer .sec-col{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    width: 20%;
+}
+footer .sec-col a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    transition: all .5s ease;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+footer .sec-col a:hover{
+    color: #01d295;
+}
+footer .third-col{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    width: 20%;
+}
+
+footer .third-col a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    transition: all .5s ease;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+footer .third-col a:hover{
+    color: #01d295;
+}
+footer .fourth-col{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    width: 20%;
+}
+footer .fourth-col a{
+    text-decoration: none;
+    color: #f77757;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+footer .fourth-col a:hover{
+    color: #01d295;
+}
+footer .fourth-col h6{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #01d295;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+footer .fourth-col h6:hover{
+    color: #f77757;
+}
+footer .fourth-col .contact{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+footer .fourth-col .contact a img{
+    width: 3rem;
+    height: auto;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+footer .fourth-col .contact a img:hover{
+    opacity: 0.5;
+}
