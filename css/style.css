@@ -785,3 +785,348 @@ footer .fourth-col .contact a img{
 footer .fourth-col .contact a img:hover{
     opacity: 0.5;
 }
+
+/* media quarry */
+@media(max-width:1400px){
+    .container{
+        max-width: 1200px;
+    }
+    .lesson .yellow{
+        display: none;
+    }
+    .lesson h4{
+        display: none;
+    }
+    .adult .adult-info .left-side h4{
+        font-size: 1rem;
+    }
+    .btn{
+        padding: 0.5rem 1rem;
+    }
+    .child .child-info .child-right h4{
+        font-size: 1rem;
+    }
+    .baby .baby-info .left-baby h4{
+        font-size: 1rem;
+    }
+    .train .right-train h1{
+        font-size: 2rem;
+    }
+}
+@media(max-width:1200px){
+    header img{
+        width: 80%;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: unset;
+        width: 100%;
+        height: auto;
+    }
+    nav a{
+        padding: 0.4rem 1rem;
+    }
+    main .card-4{
+        margin-top: 1rem;
+    }
+    .course .course-heading h1{
+        font-size: 2rem;
+    }
+    .lesson .shape-2{
+        display: none;
+    }
+    .train .left-train{
+        display: none;
+    }
+    .train .right-train{
+        width: 100%;
+    }
+    header a{
+        top: 14rem;
+    }
+}
+@media(max-width:1100px){
+    header a{
+        top: 13rem;
+        left: -1rem;
+    }
+    footer .fourth-col h6{
+        font-size: 1rem;
+    }
+    .lesson .boy{
+        top: -3.5rem;
+        left: 28rem;
+        width: 30rem;
+    }
+    .lesson .shape-1{
+        display: none;
+    }
+}
+@media(max-width:1000px){
+    header img{
+        width: 100%;
+    }
+    .course .course-info .course-card-1{
+        width: 50%;
+    }
+    .course .course-info .course-card-2{
+        width: 50%;
+    }
+    .shop{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-flow: column-reverse;
+    }
+    .shop .left-shop{
+        width: 100%;
+    }
+}
+@media(max-width:900px){
+    header a{
+        top: 11rem;
+    }
+    .course .course-info{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%
+    }
+    .course .course-info .course-card-1{
+        width: 100%;
+    }
+    .course .course-info .course-card-2{
+        width: 100%;
+    }
+    .lesson .shape-3{
+        top: -30rem;
+    }
+    .lesson .shape-4{
+        top: -30rem;
+    }
+    .lesson .boy{
+        width: 25rem;
+        top: -0.4rem;
+    }
+    .adult .adult-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column-reverse;
+    }
+    .adult .adult-info .left-side{
+        padding: 0.4rem 1rem;
+        width: 100%;
+    }
+    .adult .adult-info .right-side{
+        width: 100%;
+    }
+    .child .child-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .child .child-info .left-child{
+        width: 100%;
+    }
+    .child .child-info .child-right{
+        width: 100%;
+    }
+    .baby .baby-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column-reverse;
+    }
+    .baby .baby-info .left-baby{
+        width: 100%;
+    }
+    .baby .baby-info .right-baby{
+        width: 100%;
+    }
+    .shop{
+        height: 40vh;
+    }
+    .shop .right-shop{
+        display: none;
+    }
+}
+@media(max-width:800px){
+    nav a{
+        padding: 0 0.2rem;
+    }
+    header a{
+        top: 10rem;
+    }
+    .lesson{
+        margin-top: 4rem;
+    }
+    .lesson .boy{
+        width: 20rem;
+        top: 2.5rem;
+    }
+    .lesson .shape-4{
+        display: none;
+    }
+    .lesson .shape-3{
+        display: none;
+    }
+    footer .first-col img{
+        width: 100%;
+    }
+    footer .sec-col a{
+        font-size: 1rem;
+    }
+    footer .third-col a{
+        font-size: 1rem;
+    }
+    footer .fourth-col h6{
+        font-size: 0.6rem;
+        margin-bottom: 2rem;
+    }
+    .blog .blog-info .blog-card{
+        margin-top: 1rem;
+    }
+}
+@media(max-width:700px){
+    header{
+        height: 60vh;
+    }
+    main .card-1, .card-2 , .card-3{
+        margin-top: 1rem;
+    }
+    .lesson .left-bar{
+        width: 100%;
+    }
+    .lesson .boy{
+        width: 15rem;
+        top: 5.8rem;
+        left: 24rem;
+    }
+    .issues .drop p{
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:600px){
+    nav a img{
+        width: 2.5rem;
+    }
+    header{
+        height: 50vh;
+    }
+    header a{
+        top: 8rem;
+    }
+    .lesson .boy{
+        left: 15rem;
+    }
+    .issues .issues-1 h1{
+        font-size: 1rem;
+    }
+    .issues .issues-3{
+        font-size: 0.8rem;
+    }
+    .issues .issues-2{
+        font-size: 0.8rem;
+    }
+    footer .fourth-col .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1rem;
+    }
+}
+@media(max-width:500px){
+    footer .first-col{
+        display: none;
+    }
+    footer .third-col{
+        width: 30%;
+    }
+    footer .fourth-col{
+        width: 30%;
+    }
+    footer .sec-col{
+        width: 30%;
+    }
+    .blog .blogs-type a{
+        font-size: .8rem;
+    }
+    .train .right-train .phone{
+        width: 80%;
+    }
+    .train .right-train .name{
+        width: 80%;
+    }
+    .train .right-train .mail{
+        width: 80%;
+    }
+    .issues .issues-1 h1{
+        font-size: 0.5rem;
+    }
+    .issues .issues-2{
+        font-size: 0.5rem;
+    }
+    .issues .issues-3{
+        font-size: 0.5rem;
+    }
+}
+@media(max-width:400px){
+    .adult{
+        margin-top: 2rem;
+    }
+    .lesson .boy{
+        display: none;
+    }
+    .blog .blog-heading{
+        width: 100%;
+    }
+    .blog .blogs-type{
+        width: 100%;
+        flex-flow: row wrap;
+        max-width: 390px;
+    }
+    footer .sec-col a{ 
+        font-size: 0.6rem;
+    }
+    footer .third-col a{
+        font-size: 0.6rem;
+    }
+    footer .fourth-col a{
+        font-size: 1rem;
+    }
+    footer .fourth-col .contact a img{
+        width: 2rem;
+    }
+    .btn{
+        padding: 0.4rem 0.8rem;
+    }
+}
+@media(max-width:330px){
+    nav a img{
+        width: 2rem;
+    }
+    header{
+        height: 40vh;
+    }
+    header a{
+        font-size: 1rem;
+        padding: 0.5rem 0.8rem;
+        top: 5rem;
+    }
+    .lesson .left-bar a{
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+}
