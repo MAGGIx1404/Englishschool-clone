@@ -182,3 +182,126 @@ main .card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover{
     font-size: 1rem;
     font-weight: 400;
 }
+
+
+.lesson{
+    background-color: #4586e2;
+    margin-top: 12rem;
+    border-radius: 25px;
+    width: 100%;
+    height: 15rem;
+}
+.lesson .left-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3rem;
+    position: absolute;
+    width: 50%;
+}
+.lesson .left-bar h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+.lesson .left-bar h1 span{
+    color: white;
+}
+.lesson .left-bar a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    border: white solid;
+    border-radius: 60px;
+    margin-top: 2rem;
+    transition: .5s ease;
+}
+.lesson .left-bar a:hover{
+    color: black;
+    background-color: white;
+    border: none;
+}
+.lesson .boy{
+    position: relative;
+    top: -115px;
+    right: -500px;
+}
+.lesson .yellow{
+    width: 20rem;
+    height: auto;
+    position: relative;
+    top: -333px;
+    right: -430px;
+}
+.lesson .shape-1{
+    position: relative;
+    top: -500px;
+    left: -500px;
+}
+.lesson .shape-2{
+    position: relative;
+    top: -350px;
+    left: -580px;
+}
+.lesson .shape-3{
+    position: relative;
+    top: -575px;
+    left: -340px;
+}
+.lesson .shape-4{
+    position: relative;
+    top: -600px;
+    left: -200px;
+}
+.lesson h4{
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    top: -530px;
+    left: 1115px;
+    width: 10rem;
+}
+
+.adult{
+    margin-top: 8rem;
+}
+.adult .adult-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.adult .adult-info .left-side{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.adult .adult-info .left-side h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.adult .adult-info .left-side p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.adult .adult-info .left-side h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.adult .adult-info .left-side h4 i{
+    color: #01d295;
+}
+.adult .adult-info .right-side{
+    width: 50%;
+    height: auto;
+}
+.adult .adult-info .right-side img{
+    width: 100%;
+    height: auto;
+}
